@@ -15,6 +15,10 @@ Repository to prepare well curated learning content to study database management
 
 # Guidelines
 
+
+### ⛔️⛔️⛔️ Please try to keep every new topic in a folder.
+
+
 0. Contribute database management topics or problems.
 
 0.1. Solutions should be accompanied by commented questions and in proper folders.
