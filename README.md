@@ -37,10 +37,6 @@ Repository to prepare well curated learning content to study database management
 
 8. Writing the author's name and the date modified is a must.
 
-   Example:
-   <p align="left">
-     <img src="_images/img1.JPG">
-   </p>
 
 9. Filename should follow the order
        ````ProblemName.extension````
