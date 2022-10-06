@@ -18,10 +18,10 @@ Repository to prepare well curated learning content to study database management
 
 ### ⛔️⛔️⛔️ Please try to keep every new topic in a folder.
 
+##### Solutions should be accompanied by commented questions and in proper folders.
+
 
 0. Contribute database management topics or problems.
-
-0.1. Solutions should be accompanied by commented questions and in proper folders.
 
 1. Always create an issue before making a Pull Request. 
 
