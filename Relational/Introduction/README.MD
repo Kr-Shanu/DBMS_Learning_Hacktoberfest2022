@@ -4,8 +4,8 @@
 # Introduction of Relational Algebra in DBMS
 	Relational Algebra is procedural query language, which takes Relation as input and generate relation as output. Relational algebra mainly provides theoretical foundation for relational databases and SQL.
 
-### Operators in Relational Algebra
-#### Projection (π)
+## Operators in Relational Algebra
+### Projection (π)
 Projection is used to project required column data from a relation.
 
 **Example:**
@@ -25,7 +25,7 @@ Projection is used to project required column data from a relation.
 	   2  3
 	   3  4
 
-#### Selection (σ)
+### Selection (σ)
 Selection is used to select required tuples of the relations.
 
 for the above relation
@@ -44,21 +44,21 @@ For the above selected tuples, to display we need to use projection also.
 	   1  2  4
 	   4  3  4
 
-#### Union (U)
+### Union (U)
 Union operation in relational algebra is same as union operation in set theory, only constraint is for union of two relation both relation must have same set of Attributes.
 
-#### Set Difference (-)
+### Set Difference (-)
 Set Difference in relational algebra is same set difference operation as in set theory with the constraint that both relation should have same set of attributes.
 
  
 
-#### Rename (ρ)
+### Rename (ρ)
 Rename is a unary operation used for renaming attributes of a relation.
 ρ (a/b)R will rename the attribute ‘b’ of relation by ‘a’.
 
  
 
-#### Cross Product (X)
+### Cross Product (X)
 
 Cross product between two relations let say A and B, so cross product between A X B will results all the attributes of A followed by each attribute of B. Each record of A will pairs with every record of B.
 	
@@ -110,7 +110,7 @@ Let us see below example:
 	D     111   IT          A
 
 
-#### Conditional Join
+### Conditional Join
 
 Conditional join works similar to natural join. In natural join, by default condition is equal between common attribute while in conditional join we can specify the any condition such as greater than, less than, not equal
 
