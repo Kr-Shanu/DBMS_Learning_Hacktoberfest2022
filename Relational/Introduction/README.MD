@@ -81,3 +81,56 @@ below is this example:
 	  Kim    20    M      1    DS
   	  Kim    20    M      2    DBMS
 
+
+Note: if A has ‘n’ tuples and B has ‘m’ tuples then A X B will have ‘n*m’ tuples.
+
+ 
+
+### Natural Join (⋈)
+Natural join is a binary operator. Natural join between two or more relations will result set of all combination of tuples where they have equal common attribute.
+
+Let us see below example:
+
+ 
+	           Emp                              Dep
+	   (Name   Id   Dept_name )          (Dept_name   Manager)
+	   ------------------------          ---------------------    
+	     A     120    IT                    Sale     Y
+	     B     125    HR                    Prod     Z
+	     C     110    Sale                  IT       A
+	     D     111    IT                      
+	
+	
+	Emp ⋈ Dep
+	
+	Name   Id   Dept_name   Manager
+	-------------------------------
+	A     120   IT          A 
+	C     110   Sale        Y
+	D     111   IT          A
+
+
+#### Conditional Join
+
+Conditional join works similar to natural join. In natural join, by default condition is equal between common attribute while in conditional join we can specify the any condition such as greater than, less than, not equal
+
+Let us see below example
+
+	         R                           S
+	  (ID   Sex   Marks)          (ID   Sex   Marks)
+	  ------------------          -------------------- 
+	   1   F   45                   10   M   20
+	   2   F   55                   11   M   22
+	   3   F   60                   12   M   59
+	 
+	Join between R And S with condition  R.marks >= S.marks
+	
+	R.ID   R.Sex   R.Marks   S.ID   S.Sex   S.Marks
+	-----------------------------------------------
+	1       F       45        10     M        20
+	1       F       45        11     M        22
+	2       F       55        10     M        20
+	2       F       55        11     M        22
+	3       F       60        10     M        20
+	3       F       60        11     M        22
+3       F       60        12     M        59
