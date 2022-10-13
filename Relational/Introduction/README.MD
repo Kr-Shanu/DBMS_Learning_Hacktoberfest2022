@@ -9,6 +9,7 @@
 Projection is used to project required column data from a relation.
 
 **Example:**
+
 	   R 
 	  (A  B  C)    
 	  ----------
@@ -35,7 +36,8 @@ Note: selection operator only selects the required tuples but does not display t
 
 For the above selected tuples, to display we need to use projection also.
 
- π (σ (c>3)R ) will show following tuples.
+ 	
+	π (σ (c>3)R ) will show following tuples.
 
 	   A  B  C
 	   -------
