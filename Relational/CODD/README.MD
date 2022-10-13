@@ -172,3 +172,6 @@ Logical data independence: Any modification in logical or conceptual schema of a
 Integrity Independence: Integrity constraints modified at database level should not enforce modification at application level.
 Distribution Independence: Distribution of data over various locations should not be visible to end-users.
 Non-Subversion Rule: Low level access to data should not be able to bypass integrity rule to change data.
+
+
+ Source: geeksforgeeks.org
