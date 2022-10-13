@@ -9,20 +9,20 @@
 Projection is used to project required column data from a relation.
 
 **Example:**
-   R 
-  (A  B  C)    
-  ----------
-   1  2  4
-   2  2  3
-   3  2  3
-   4  3  4
-
-   π (BC) 
-   B  C
-   -----
-   2  4
-   2  3
-   3  4
+	   R 
+	  (A  B  C)    
+	  ----------
+	   1  2  4
+	   2  2  3
+	   3  2  3
+	   4  3  4
+	
+	   π (BC) 
+	   B  C
+	   -----
+	   2  4
+	   2  3
+	   3  4
 
 #### Selection (σ)
 Selection is used to select required tuples of the relations.
@@ -37,10 +37,10 @@ For the above selected tuples, to display we need to use projection also.
 
  π (σ (c>3)R ) will show following tuples.
 
-   A  B  C
-   -------
-   1  2  4
-   4  3  4
+	   A  B  C
+	   -------
+	   1  2  4
+	   4  3  4
 
 #### Union (U)
 Union operation in relational algebra is same as union operation in set theory, only constraint is for union of two relation both relation must have same set of Attributes.
@@ -62,12 +62,12 @@ Cross product between two relations let say A and B, so cross product between A 
 	
 below is this example:
 
-   A                                  B
-    (Name   Age  Sex )                (Id   Course)  
-    ------------------                -------------
-    Ram    14   M                      1     DS
-    Sona   15   F                      2     DBMS
-    kim    20   M
+	   A                                  B
+	    (Name   Age  Sex )                (Id   Course)  
+	    ------------------                -------------
+	    Ram    14   M                      1     DS
+	    Sona   15   F                      2     DBMS
+	    kim    20   M
 
 	     A X B
 	  Name   Age   Sex   Id   Course
