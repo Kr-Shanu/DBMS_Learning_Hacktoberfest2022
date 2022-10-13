@@ -2,7 +2,7 @@
 >Date - 13/10/22
 
 # Introduction of Relational Algebra in DBMS
-	Relational Algebra is procedural query language, which takes Relation as input and generate relation as output. Relational algebra mainly provides theoretical foundation for relational databases and SQL.
+> Relational Algebra is procedural query language, which takes Relation as input and generate relation as output. Relational algebra mainly provides theoretical foundation for relational databases and SQL.
 
 ## Operators in Relational Algebra
 ### Projection (π)
