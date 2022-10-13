@@ -14,17 +14,17 @@ Relational Model represents how data is stored in Relational Databases.  A relat
 | 3 | sooraj | mumbai |93343711723 | 23 |
 
 ### Important terminologies.
-** Attribute: ** Attributes are the properties that define a relation. e.g.; ROLL_NO, NAME
-** Relation Schema: ** A relation schema represents name of the relation with its attributes. e.g.; STUDENT (ROLL_NO, NAME, ADDRESS, PHONE and AGE) is relation schema for STUDENT. If a schema has more than 1 relation, it is called Relational Schema.
-** Tuple: ** Each row in the relation is known as tuple. The above relation contains 4 tuples, one of which is shown as:
+**Attribute:** Attributes are the properties that define a relation. e.g.; ROLL_NO, NAME
+**Relation Schema:** A relation schema represents name of the relation with its attributes. e.g.; STUDENT (ROLL_NO, NAME, ADDRESS, PHONE and AGE) is relation schema for STUDENT. If a schema has more than 1 relation, it is called Relational Schema.
+**Tuple:** Each row in the relation is known as tuple. The above relation contains 4 tuples, one of which is shown as:
 
 | 1 | Ram | Delhi | 9455123451 | 18 |
 
 
-    ** Relation Instance: ** The set of tuples of a relation at a particular instance of time is called as relation instance. Table 1 shows the relation instance of STUDENT at a particular time. It can change whenever there is insertion, deletion or updation in the database.
-    ** Degree: ** The number of attributes in the relation is known as degree of the relation. The STUDENT relation defined above has degree 5.
-    ** Cardinality: ** The number of tuples in a relation is known as cardinality. The STUDENT relation defined above has cardinality 4.
-    ** Column: ** Column represents the set of values for a particular attribute. The column ROLL_NO is extracted from relation STUDENT.
+    **Relation Instance:** The set of tuples of a relation at a particular instance of time is called as relation instance. Table 1 shows the relation instance of STUDENT at a particular time. It can change whenever there is insertion, deletion or updation in the database.
+    **Degree:** The number of attributes in the relation is known as degree of the relation. The STUDENT relation defined above has degree 5.
+    **Cardinality:** The number of tuples in a relation is known as cardinality. The STUDENT relation defined above has cardinality 4.
+    **Column:** Column represents the set of values for a particular attribute. The column ROLL_NO is extracted from relation STUDENT.
 
 > NULL Values: The value which is not known or unavailable is called NULL value. It is represented by blank space. e.g.; PHONE of STUDENT having ROLL_NO 4 is NULL. 
  
@@ -52,9 +52,9 @@ We can’t insert a row in REFERENCING RELATION if referencing attribute’s val
 #### Deletion/ Updation Anomaly in Referenced Relation: 
 We can’t delete or update a row from REFERENCED RELATION if value of REFERENCED ATTRIBUTE is used in value of REFERENCING ATTRIBUTE. e.g; if we try to delete tuple from BRANCH having BRANCH_CODE ‘CS’, it will result in error because ‘CS’ is referenced by BRANCH_CODE of STUDENT, but if we try to delete the row from BRANCH with BRANCH_CODE CV, it will be deleted as the value is not been used by referencing relation. It can be handled by following method: 
 
-** ON DELETE CASCADE: ** It will delete the tuples from REFERENCING RELATION if  value used by REFERENCING ATTRIBUTE is deleted from REFERENCED RELATION. e.g;, if we delete a row from BRANCH with BRANCH_CODE ‘CS’, the rows in STUDENT relation with BRANCH_CODE CS (ROLL_NO 1 and 2 in this case) will be deleted. 
+**ON DELETE CASCADE:** It will delete the tuples from REFERENCING RELATION if  value used by REFERENCING ATTRIBUTE is deleted from REFERENCED RELATION. e.g;, if we delete a row from BRANCH with BRANCH_CODE ‘CS’, the rows in STUDENT relation with BRANCH_CODE CS (ROLL_NO 1 and 2 in this case) will be deleted. 
 
-** ON UPDATE CASCADE: ** It will update the REFERENCING ATTRIBUTE in REFERENCING RELATION if attribute value used by REFERENCING ATTRIBUTE is updated in REFERENCED RELATION. e.g;, if we update a row from BRANCH with BRANCH_CODE ‘CS’ to ‘CSE’, the rows in STUDENT relation with BRANCH_CODE CS (ROLL_NO 1 and 2 in this case) will be updated with BRANCH_CODE ‘CSE’. 
+**ON UPDATE CASCADE:** It will update the REFERENCING ATTRIBUTE in REFERENCING RELATION if attribute value used by REFERENCING ATTRIBUTE is updated in REFERENCED RELATION. e.g;, if we update a row from BRANCH with BRANCH_CODE ‘CS’ to ‘CSE’, the rows in STUDENT relation with BRANCH_CODE CS (ROLL_NO 1 and 2 in this case) will be updated with BRANCH_CODE ‘CSE’. 
 
-** SUPER KEYS: ** 
+**SUPER KEYS:** 
 Any set of attributes that allows us to identify unique rows (tuples) in a given relation are known as super keys. Out of these super keys we can always choose a proper subset among these which can be used as a primary key. Such keys are known as Candidate keys. If there is a combination of two or more attributes which is being used as the primary key then we call it as a Composite key. 
