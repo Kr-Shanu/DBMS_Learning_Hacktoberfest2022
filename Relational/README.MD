@@ -20,11 +20,10 @@ Relational Model represents how data is stored in Relational Databases.  A relat
 
 | 1 | Ram | Delhi | 9455123451 | 18 |
 
-
-    **Relation Instance:** The set of tuples of a relation at a particular instance of time is called as relation instance. Table 1 shows the relation instance of STUDENT at a particular time. It can change whenever there is insertion, deletion or updation in the database.
-    **Degree:** The number of attributes in the relation is known as degree of the relation. The STUDENT relation defined above has degree 5.
-    **Cardinality:** The number of tuples in a relation is known as cardinality. The STUDENT relation defined above has cardinality 4.
-    **Column:** Column represents the set of values for a particular attribute. The column ROLL_NO is extracted from relation STUDENT.
+**Relation Instance:** The set of tuples of a relation at a particular instance of time is called as relation instance. Table 1 shows the relation instance of STUDENT at a particular time. It can change whenever there is insertion, deletion or updation in the database.
+**Degree:** The number of attributes in the relation is known as degree of the relation. The STUDENT relation defined above has degree 5.
+**Cardinality:** The number of tuples in a relation is known as cardinality. The STUDENT relation defined above has cardinality 4.
+**Column:** Column represents the set of values for a particular attribute. The column ROLL_NO is extracted from relation STUDENT.
 
 > NULL Values: The value which is not known or unavailable is called NULL value. It is represented by blank space. e.g.; PHONE of STUDENT having ROLL_NO 4 is NULL. 
  
