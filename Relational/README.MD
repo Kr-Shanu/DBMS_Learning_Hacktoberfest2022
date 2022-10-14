@@ -57,3 +57,5 @@ We can’t delete or update a row from REFERENCED RELATION if value of REFERENCE
 
 **SUPER KEYS:** 
 Any set of attributes that allows us to identify unique rows (tuples) in a given relation are known as super keys. Out of these super keys we can always choose a proper subset among these which can be used as a primary key. Such keys are known as Candidate keys. If there is a combination of two or more attributes which is being used as the primary key then we call it as a Composite key. 
+
+ Source: geeksforgeeks.org
