@@ -6,7 +6,7 @@ Repository to prepare well curated learning content to study database management
 
 <br>
 <p align="center">
-  <img src="https://pbs.twimg.com/card_img/1573381706404564995/VQLma1S-?format=jpg&name=4096x4096">
+  <img src="Images/hactober_logo.png">
 </p>
 
 ### Make your way to hacktoberfest using this repository, contribute on the topic of database management system.
