@@ -1,3 +1,6 @@
+Contributed by - **Rishabh Raghwendra**
+Date - 18/10/22
+
 # Impedance Mismatch
 Impedance mismatch is the term used to refer to the problems that occurs due to differences between the database model and the programming language model. The practical relational model has 3 components these are:
 
@@ -13,3 +16,5 @@ Following problems may occur due to the impedance mismatch:
 
 2. The second problem that may occur is because the results of most queries are sets or multisets of tuples and each tuple is formed of a sequence of attribute values. In the program, it is necessary to access the individual data values within individual tuples for printing or processing. 
     Hence there is a need for binding to map the query result data structure which is a table to an appropriate data structure in the programming language. A mechanism is needed to loop over the tuples in a query result in order to access a single tuple at a time and to extract individual values from the tuple. The extracted values are typically copied to appropriate program variables for further processing by the program.
+
+Source: [geeksforgeeks.org](https://www.geeksforgeeks.org/impedance-mismatch-in-dbms/#:~:text=Impedance%20mismatch%20is%20the%20term,Attributes%20and%20their%20data%20types)

@@ -1,3 +1,6 @@
+Contributed by - **Rishabh Raghwendra**
+Date - 18/10/22
+
 # Minimization of ER Diagrams
 
 Entity-Relationship (ER) Diagram is a diagrammatic representation of data in databases, it shows how data is related. 
@@ -119,4 +122,4 @@ The primary key of R can be A1 or B1, but we can’t still combine all three tab
 But we can merge R into E1 or E2.  So a minimum of 2 tables is required. 
 
 
-Source: geeksforgeeks.org
+Source: [geeksforgeeks.org](https://www.geeksforgeeks.org/minimization-of-er-diagrams/)

@@ -1,3 +1,6 @@
+Contributed by - **Rishabh Raghwendra**
+Date - 18/10/22
+
 # ER Model: Generalization, Specialization and Aggregation
 
 **Prerequisite –** [Introduction of ER Model ](../README.md)
@@ -27,4 +30,4 @@ To represent aggregation, create a schema containing:
 2. primary key of the associated entity set
 3. descriptive attribute, if exists.
 
-Source: geeksforgeeks.org
+Source: [geeksforgeeks.org](https://www.geeksforgeeks.org/generalization-specialization-and-aggregation-in-er-model/)

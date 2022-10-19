@@ -1,3 +1,6 @@
+Contributed by - **Rishabh Raghwendra**
+Date - 18/10/22
+
 # Recursive Relationships
 **Prerequisite** - [Introduction To ER Model](../README.md)
 
@@ -31,4 +34,4 @@ Emp_entity( Emp_no,Emp_Fname, Emp_Lname, Emp_DOB, Emp_NI_Number, Manager_no);
 Manager no - (this is the employee no of the employee's manager)
 ```
 
-Source: geeksforgeeks.org
+Source: [geeksforgeeks.org](https://www.geeksforgeeks.org/recursive-relationships-in-er-diagrams/)
