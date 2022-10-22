@@ -1,3 +1,5 @@
+> Contributed By Nilesh Srivastava Date 22.10.22
+ 
 # Mapping ER Model to Relational Model
 
 ER Model, when conceptualized into diagrams, gives a good overview of entity-relationship, which is easier to understand. ER diagrams can be mapped to relational schema, that is, it is possible to create relational schema using ER diagram. We cannot import all the ER constraints into relational model, but an approximate schema can be generated.
