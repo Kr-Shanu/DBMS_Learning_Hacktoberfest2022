@@ -33,3 +33,5 @@ The traditional file system is written for small organizations and for some spec
 
 ## 5. Frequency Upgrade/Replacement Cycles: 
 Nowadays in this world, we need to stay up-to-date about the latest technologies, developments arriving in the market. Frequent upgrade of the products is done by the DBMS vendors to add new functionality to the systems. New upgrade versions of the software often come bundled. Sometimes these updates also need hardware upgrades. Sometimes these changes and updates are so fast that the users find it difficult to work with that system because it is not easy to learn new commands and understand them again when the new upgrades are done. All these upgrades also cost money to train users, designers, etc. to use the new features. 
+
+Source - [GFG](https://www.geeksforgeeks.org/disadvantages-of-dbms/)
