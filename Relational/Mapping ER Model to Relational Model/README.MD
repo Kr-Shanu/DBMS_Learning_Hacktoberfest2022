@@ -49,3 +49,5 @@ ER specialization or generalization comes in the form of hierarchical entity set
 - In lower-level tables, add all other attributes of lower-level entities.
 - Declare primary key of higher-level table and the primary key for lower-level table.
 - Declare foreign key constraints.
+
+Source-[Tutorial Point](https://www.tutorialspoint.com/dbms/er_model_to_relational_model.htm#:~:text=Mapping%20Process,-Create%20table%20for&text=Add%20the%20primary%20keys%20of,Declare%20all%20foreign%20key%20constraints.)
